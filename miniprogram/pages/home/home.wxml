@@ -14,3 +14,4 @@
 <w-tabcontrol list="{{list_tabcontrol}}"  bind:title_click="title_click"></w-tabcontrol>
 <w-goods list="{{list_goods}}" bind:handler_tap='handler_tap'></w-goods>
 <w-backtop bind:tap='handler_backtop' wx:if="{{flag_show}}"></w-backtop>
+<block>home的修改</block>
