@@ -2,3 +2,5 @@
 <text>pages/detail.wxml</text>
 <!-- test detail goods -->
 <view>detail__goods</view>
+<!-- 第二次修改 预备放在 redbranch 下-->
+<view>redbranch</view>
