@@ -1,2 +1,4 @@
 <!--pages/detail.wxml-->
 <text>pages/detail.wxml</text>
+<!-- test detail goods -->
+<view>detail__goods</view>
