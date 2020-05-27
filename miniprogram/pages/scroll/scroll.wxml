@@ -1,0 +1,30 @@
+
+<!-- 水平滚动 scroll-x -->
+<!-- <scroll-view class="container" scroll-x>
+<view wx:for="{{10}}" class="item">{{item}}</view>
+</scroll-view>  -->
+
+<my-select class="select" ></my-select>
+<button class="button" size="mini" bind:tap='handler_tap'>click</button>
+<!-- SLOT -->
+<my-slot> <button>slotContent</button></my-slot>
+<!-- <scroll-view  scroll-y  class="box1"
+bindscroll="handler_scroll" bindtouchstart="touch_start"
+>
+<view wx:for="{{2}}" class="item2" wx:key="item">{{item}}</view>
+</scroll-view> -->
+<!-- 跳转页面 auto add return button open-type  跳转后 原page依然存在 ,占用部分开销 , redirec:关闭原page -->
+<!--  redirect 覆盖操作 无返回按钮 -->
+ <!-- open-type="redirect" -->
+ <!-- url 不带 / 会追加本页的url -->
+<!-- switchTab 跳转至tabbar的url -->
+<!-- <navigator url="/pages/openapi/openapi"  > navigator</navigator> -->
+<!-- tabbar 只显示在定义的page里 -->
+<!-- reLaunch 只展示当前页面 其它页面全部关闭 -->
+<!-- open-type='navigateBar'  delta="2 "  返回层级 自定义返回-->
+<!-- <navigator url="/pages/openapi/openapi" open-type="redirect"  > navigator</navigator> -->
+<navigator url="/pages/index/index"   > navigator</navigator>
+<!-- <navigator  open-type="navigateBack"   > navigator2</navigator> -->
+<!-- <scroll-view>
+<view wx:for="{{10}}" class="item3">{{item}}</view>
+</scroll-view> -->

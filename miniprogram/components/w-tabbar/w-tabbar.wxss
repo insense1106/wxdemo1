@@ -1,0 +1,20 @@
+/* components/w-tabbar/w-tabbar.wxss */
+.box{
+  display: flex;
+  margin-top: 40rpx;
+  padding-bottom: 40rpx;
+  border-bottom: 6rpx solid gray;
+}
+.item{
+  flex:1;
+  /* justify-content: space-around; */
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+.tabbar-image{
+  /* text-align: center; */
+  height:120rpx;
+  width:120rpx;
+  border-radius: 50%;
+}

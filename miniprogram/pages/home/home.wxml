@@ -1,0 +1,16 @@
+<!--pages/home/home.wxml-->
+<view class="navigator">购物街</view>
+<!-- swiper -->
+<!-- <swiper class="swiper" indicator-dots="true" indicator-active-color="red" circular="true" autoplay="true" interval="1000" duration="100">
+<block wx:for="{{list}}" wx:key="{{index}}">
+  <swiper-item>
+  <image src="{{item.imgurl}}" mode="heightFix" />
+  </swiper-item>
+</block>
+</swiper> --> 
+<w-swiper  list="{{list}}"></w-swiper>
+<w-tabbar list2="{{list2}}"></w-tabbar>
+<w-popular list="{{list3}}"></w-popular>
+<w-tabcontrol list="{{list_tabcontrol}}"  bind:title_click="title_click"></w-tabcontrol>
+<w-goods list="{{list_goods}}" bind:handler_tap='handler_tap'></w-goods>
+<w-backtop bind:tap='handler_backtop' wx:if="{{flag_show}}"></w-backtop>

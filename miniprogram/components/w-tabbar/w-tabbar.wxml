@@ -1,0 +1,9 @@
+<!--components/w-tabbar/w-tabbar.wxml-->
+<view class="box">
+<block  wx:for="{{list2}}" wx:key="index" >
+<view class="item">
+<image class="tabbar-image" src="{{item.imgurl}}" mode="heightFix" />
+<text>{{item.author}}</text>
+</view>
+</block>
+</view>

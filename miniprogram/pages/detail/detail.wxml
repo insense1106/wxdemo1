@@ -1,0 +1,7 @@
+<!--miniprogram/pages/detail.wxml-->
+
+<view>{{item.author}}</view>
+<text>{{item.dissid}}</text>
+<text>{{item.dissname}}</text>
+<text>{{item.listennum}}</text>
+<image src="{{item.imgurl}}"></image>

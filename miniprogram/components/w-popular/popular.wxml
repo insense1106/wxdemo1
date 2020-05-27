@@ -1,0 +1,8 @@
+
+<view class="box">
+<block wx:for="{{list}}" wx:key="index">
+<view class="item">
+<image  src="{{item.imgurl}}"></image>
+</view>
+</block>
+</view>

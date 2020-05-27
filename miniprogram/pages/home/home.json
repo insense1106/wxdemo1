@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "w-swiper":"/components/w-swiper/swiper",
+    "w-tabbar":"/components/w-tabbar/w-tabbar",
+    "w-popular":"/components/w-popular/popular",
+    "w-tabcontrol":"/components/w-tabcontrol/tabcontrol",
+    "w-goods":"/components/w-goods/goods",
+    "w-backtop":"/components/w-backtop/backtop"
+  }
+}

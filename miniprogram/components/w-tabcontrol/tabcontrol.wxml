@@ -1,0 +1,8 @@
+<view class="box" >
+<block wx:for="{{list}}" wx:key="index">
+<!-- class="active2 {{current_index == index ? 'active':''}}" -->
+  <view   bindtap="handler_item_click" class="item {{current_index == index ? 'active':''}} " data-index="{{index}}">
+  {{item}}
+  </view>
+</block>
+</view>

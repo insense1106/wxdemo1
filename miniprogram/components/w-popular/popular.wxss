@@ -1,0 +1,14 @@
+/* components/w-popular/popular.wxss */
+.box{
+  display: flex;
+  margin-top: 100rpx;
+  justify-content: space-around;
+}
+.item{
+  flex-basis: 25%;
+  text-align: center;
+}
+.item>image{
+  width:50%;
+  height:200%;
+}

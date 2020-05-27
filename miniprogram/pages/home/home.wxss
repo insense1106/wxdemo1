@@ -1,0 +1,8 @@
+/* pages/home/home.wxss */
+.navigator{
+  color: blanchedalmond;
+  background-color: saddlebrown;
+  text-align: center;
+  line-height: 130rpx;
+  height:130rpx;
+}

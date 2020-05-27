@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "my-select":"/components/my-select/my-select",
+    "my-slot":"/components/my-slot/my-slot"
+  }
+
+}

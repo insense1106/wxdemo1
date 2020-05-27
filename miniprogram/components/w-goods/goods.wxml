@@ -1,0 +1,8 @@
+<view class="box">
+<block wx:for="{{list}}" wx:key="index">
+<view class="item"  bind:tap="handler_tap" data-item="{{item}}" data-index="{{index}}">
+  <image src="{{item.imgurl}}"></image>
+  <text>{{item.author}}</text>
+</view>
+</block>
+</view>
